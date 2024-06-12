@@ -91,8 +91,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
-    background-size: 280px 280px;
+    background: url("img_optimized/texture-paper.webp");
+    width: 100%;
 }
 
 .b-parallax {
@@ -755,6 +755,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 80%;
     margin: auto;
 }
 
@@ -832,18 +833,22 @@ h4 {
 
 .bg-dots-bg {
     background-image: url("img/dots-bg.png");
+    width: 100%;
 }
 
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
+    width: 100%;
 }
 
 .bg-atlanta-20made-20sign {
-    background-image: url("img/atlanta%20made%20sign.jpg");
+    background-image: url("img_optimized/atlanta%20made%20sign.webp");
+    width: 100%;
 }
 
 .bg-atlanta-20made-20sign-20orange {
-    background-image: url("img/atlanta%20made%20sign%20orange.jpg");
+    background-image: url("img_optimized/atlanta%20made%20sign%20orange.webp");
+    width: 100%;
 }
 
 @media (max-width: 1024px) {
