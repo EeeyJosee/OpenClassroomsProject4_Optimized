@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img_optimized/texture-paper.webp");
+    background: url("img_optimized/texture-paper.ebp");
     width: 100%;
 }
 
@@ -672,6 +672,14 @@ a {
     max-width: 1000px;
 }
 
+.quote {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
 .hero-bloc-text {
     font-size: 38px;
 }
@@ -832,12 +840,12 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img_optimized/dots-bg.webp");
     width: 100%;
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+    background-image: url("img_optimized/lines-h2-bg.webp");
     width: 100%;
 }
 
